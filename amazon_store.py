@@ -35,7 +35,7 @@ def write_csv( j, url, cat1, cat2, cat3, cat4, cat5, cat6, cat7, cat8, cat9, cat
     if j == 0 :
         global  dfObj
         global file_name
-        file_name = 'amazon_test_2.csv'
+        file_name = 'amazon_store_list.csv'
         dfObj = pd.DataFrame(columns=['select', 'amazon_url', 'cat1', 'cat2', 'cat3', 'cat4', 'cat5', 'cat6', 'cat7', 'cat8', 'cat9', 'cat10', 'cat11',
                                       'cat12', 'cat13', 'cat14', 'cat15'])
         dfObj.to_csv(file_name)
